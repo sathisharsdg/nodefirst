@@ -2,8 +2,9 @@
   "name": "node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,12 @@
     "main"
   ],
   "author": "git push -u origin main",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.5",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
